@@ -5,9 +5,9 @@ services:
     image: postgres:17
     restart: always
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 1299
-      POSTGRES_DB: levelupai
+      POSTGRES_USER: postgres_name
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: POSTGRES_Name_db
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
